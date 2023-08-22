@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+font-family: 'Roboto', sans-serif;
+background-color:  #ffffff;
+}
+
+/* header */
+header{
+    height: 140px;
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACyCAMAAACnS4D4AAAAJ1BMVEV0rN3//v/9///////8//9xptVxqdt2qdrK3/LQ3+p2ost5ps/J3/JR0P1lAAAA70lEQVR4nO3cQU7DQBQFwQ8BYkjuf142sbKw3SskR6LqBKOe7byZAQAAAAAAAAAAAAAAAAAAANj45NB8c2jeObQT54OHuazE2RAn7MRhJU6Yt5VKG+IEcYI4QZwgThAnPONsK/174gRxgjhBnCBOECeIE8QJO3FYiRPECeIEcYI4QZwgThAniBPECeIEcYI4QZwgThAniBPECeIEcYI4QZwgThAniBPECeIEcYI4QZzw3Ftdzj7K6zFGC6bTQZwwO0/heJhlud8Xds3tdvth38x8ceDsH2pe25VDZ98NAAAAAAAAAAAAAAAAAADAH/gFkJyfbWe2BJIAAAAASUVORK5CYII=);
+background-position: center;
+    top: 0px;
+    position: sticky;
+}
+/* negro #000000 
+ celeste #20a4f3 
+ blanco #ffffff */
+
+nav{
+    height: 100%;
+    font-size: 3rem;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+
+}
+a{
+    color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+/* main */
+h1{
+    text-align: center;
+    font-size: 13rem;
+    margin-top: 40px;
+}
+.colectivo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    /* align-items: center; Centrar verticalmente
+    height: 100%;
+    width: 100%;*/
+    height: 400px;
+    /* width: 500px; */
+
+
+
+}
+.texto {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 400px; /* Ajusta la altura según tus necesidades */
+    border: 1px solid #ccc; /* Solo para visualización */
+    margin-top: 40px;
+
+
+}
+
+.texto_info {
+    text-align: center;
+    font-size: 3rem;
+    display: flex;
+justify-content: center;
+margin-top: 50px;
+
+}
+.subtitulo_inicio{
+
+    font-size: 5rem;
+    text-align: center;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+}
+
+.container_logo{
+    height: 150px;
+    width: 180px;
+    margin-left:150px ;
+}
+.subtitulo-jugadores{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.los-jugadores {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.colec{
+    margin-right: 30px;
+}
+h2{
+    margin-top: 70px;
+}
+
+footer{
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+.h1_jugadores{
+    font-size: 10rem;
+}
+
+/* tabla de partidos */
+
+table {
+    border-collapse: collapse;
+    width: 500px; /* Ancho total de la tabla */
+    border-collapse: collapse;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+
+  }
+
+  th, td {
+    border: 2px solid black;
+    padding: 18px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  /* Estilo adicional para bordes en las esquinas */
+  tr:first-child th:first-child {
+    border-top-left-radius: 8px;
+  }
+
+  tr:first-child th:last-child {
+    border-top-right-radius: 8px;
+  }
+
+  tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+  }
+
+  tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+  }
+
+.triunfos {
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.trofeo{
+    width: 100%;
+    height: 100%;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.footer-f{
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer{
+    background-color: #ccc;
+    margin-left: 0%;
+}
